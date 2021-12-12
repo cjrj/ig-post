@@ -1,9 +1,7 @@
 *, *::after, *::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-} 
+    box-sizing: border-box;} 
 
 body {
     background: black;
@@ -15,7 +13,7 @@ body {
 }
 
 
-.main_post {
+.main-post {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,7 +23,7 @@ body {
     width: 720px;   
 }
 
-.post_head {
+.post-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,7 +57,6 @@ body {
     font-size: 30pt;
 }
 
-
 h1 {
     font-size: 18pt;
     font-weight: bold; 
@@ -69,7 +66,7 @@ p.nombre {
     color: black;
     font-size: 18pt;
 }
-.post_photo {
+.post-photo {
     display:block;
     width: 720px;
     overflow: hidden;
@@ -79,8 +76,8 @@ img {
     width: 100%;
 }
 
-.post_foot {
-    padding: 0px 25px 15px 25px;*/
+.post-foot {
+    padding: 0px 25px 15px 25px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -118,7 +115,8 @@ img {
 .liked p{
     font-size: 16pt;
 }
-.post_foot p{
+
+.post-foot p{
     margin-bottom: 20px;
     font-size: 16pt;
 }
